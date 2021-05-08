@@ -6,7 +6,7 @@
 
 ---
 
-###### Question 1. TWO NUMBER SUM
+###### Question 1. TWO NUMBER SUM (Refer blog [Code Wrestling](https://codewrestling.medium.com/two-number-sum-competitive-programming-question-with-time-and-space-complexity-24d60b0015f8))
 
 ---
 
