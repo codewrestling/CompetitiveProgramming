@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/TwoNumberSum/bin/*
+/TwoNumberSum/obj/*
+/.vs/CompetitiveProgramming/v16
+/ValidateSubSequence/bin/*
+/ValidateSubSequence/obj/*

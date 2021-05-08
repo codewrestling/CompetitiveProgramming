@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoNumberSum", "TwoNumberSum\TwoNumberSum.csproj", "{C99CD465-E9D7-4F39-9950-74B9613437AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoNumberSum", "TwoNumberSum\TwoNumberSum.csproj", "{C99CD465-E9D7-4F39-9950-74B9613437AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidateSubSequence", "ValidateSubSequence\ValidateSubSequence.csproj", "{B60B64F9-D075-44A9-A1CB-1F3868E2B45E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C99CD465-E9D7-4F39-9950-74B9613437AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C99CD465-E9D7-4F39-9950-74B9613437AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C99CD465-E9D7-4F39-9950-74B9613437AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B60B64F9-D075-44A9-A1CB-1F3868E2B45E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B60B64F9-D075-44A9-A1CB-1F3868E2B45E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B60B64F9-D075-44A9-A1CB-1F3868E2B45E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B60B64F9-D075-44A9-A1CB-1F3868E2B45E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
