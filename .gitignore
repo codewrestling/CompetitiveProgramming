@@ -7,3 +7,6 @@
 /.vs/CompetitiveProgramming/v16
 /ValidateSubSequence/bin/*
 /ValidateSubSequence/obj/*
+/SortedSquaredArray/bin/Debug/netcoreapp3.1
+/SortedSquaredArray/obj
+/TournamentWinner/obj
