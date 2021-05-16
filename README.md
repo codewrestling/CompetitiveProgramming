@@ -7,7 +7,7 @@
 1. [Two Number Sum](#Question-1)
 2. [Validate Subsequence](#Question-2)
 3. [Sorted Squared Array](#Question-3)
-4. [Tournament Winner](#Question-3)
+4. [Tournament Winner](#Question-4)
 
 ---
 
