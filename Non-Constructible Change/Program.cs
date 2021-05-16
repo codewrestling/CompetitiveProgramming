@@ -22,7 +22,7 @@ namespace Non_Constructible_Change
     {
         static void Main(string[] args)
         {
-            List<int> coins = new List<int> { 1, 2, 5 };
+            List<int> coins = new List<int> { 5, 7, 1, 1, 2, 3, 22 };
             int val = NonConstructibleChange(coins);
             Console.WriteLine(val);
             Console.Read();
