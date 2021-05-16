@@ -63,7 +63,7 @@ array = [1, 2, 3, 5, 6, 8, 9]
 ---
 
 ##### Question 4
-###### Tournament Winner (Refer Blog [Tournament Winner](https://codewrestling.medium.com/sorted-squared-array-with-time-and-space-complexity-competitive-programming-3956201d8a4b)
+###### Tournament Winner (Refer Blog [Tournament Winner](https://codewrestling.medium.com/tournament-winner-with-time-and-space-complexity-competitive-programming-e9840ea36ffd)
 
 ---
 
