@@ -8,6 +8,7 @@
 2. [Validate Subsequence](#Question-2)
 3. [Sorted Squared Array](#Question-3)
 4. [Tournament Winner](#Question-4)
+5. [Non-Constructible change](#Question-5)
 
 ---
 
@@ -91,4 +92,22 @@ results = [0, 0, 1]
 - Python -  6 points
 
 ---
+
+##### Question 5
+###### Non-Constructible change (Refer Blog [Non-Constructible change](https://codewrestling.medium.com/tournament-winner-with-time-and-space-complexity-competitive-programming-e9840ea36ffd)
+
+---
+
+Given an array of positive integers representing the values of coins in your possession, write a function that returns the minimum amount of change (the minimum sum of money) that you cannot create. The given coins can have any positive integer value and aren't necessarily unique (i.e., you can have multiple coins of the same value).
+
+For example, if you're givencoins = [1, 2, 5], the minimum amount of change that you can't create is 4. If you're given no coins, the minimum amount of change that you can't create is 1.
+
+######Sample Test
+coins = [5, 7, 1, 1, 2, 3, 22]
+
+######Sample Output
+20
+
+---
+
 
