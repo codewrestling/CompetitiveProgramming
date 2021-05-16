@@ -48,6 +48,7 @@
 
 
 using System;
+using System.Collections.Generic;
 
 namespace TournamentWinner
 {
@@ -55,7 +56,43 @@ namespace TournamentWinner
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            List<List<string>> competitions = new List<List<string>>
+            {
+                new List<string>{"HTML", "C#"},
+                new List<string>{"C#", "Python"},
+                new List<string>{"Python", "HTML"},
+            };
+            List<int> results = new List<int> { 0, 1, 1 };
+            var winner = GetWinner(competitions, results);
+            Console.WriteLine(winner);
+            Console.Read();
+        }
+
+        private static string GetWinner(List<List<string>> competitions, List<int> results)
+        {
+            Dictionary<string, int> scores = new Dictionary<string, int>();
+            int maxValue = 0;
+            string maxValueKey = "";
+            for (int i = 0; i < results.Count; i++)
+            {
+                int index = results[i] == 0 ? 1 : 0;
+                string key = competitions[i][index];
+                if (!scores.ContainsKey(key))
+                {
+                    scores[key] = 3;
+                }
+                else
+                {
+                    scores[key] += 3;
+                }
+
+                if (scores[key] > maxValue)
+                {
+                    maxValueKey = key;
+                    maxValue = scores[key];
+                }
+            }
+            return maxValueKey;
         }
     }
 }
