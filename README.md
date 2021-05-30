@@ -9,6 +9,7 @@
 3. [Sorted Squared Array](#Question-3)
 4. [Tournament Winner](#Question-4)
 5. [Non-Constructible change](#Question-5)
+6. [Closest Value in BST](#Question-6)
 
 ---
 
@@ -23,6 +24,7 @@ Note that the target sum has to be obtained by summing two different integers in
 
 ###### Sample Test
 array = [3, 5, -4, 8, 11, 1, -1, 6]
+
 targetSum = 10
 
 ###### Sample Output
@@ -41,6 +43,7 @@ For instance, the numbers [1, 3, 4] form a subsequence of the array [1, 2, 3, 4]
 
 ###### Sample Test
 array = [5, 1, 22, 25, 6, -1, 8, 10]
+
 sequence = [1, 6, -1, 10]
 
 ###### Sample Output
@@ -110,7 +113,7 @@ coins = [5, 7, 1, 1, 2, 3, 22]
 
 ---
 ##### Question 6
-###### Closest Value in BST ([Refer Blog](https://codewrestling.medium.com/closest-value-in-bst-competitive-programming-with-time-and-space-complexity-7d785a8b48b2)
+###### Closest Value in BST ([Refer Blog](https://codewrestling.medium.com/closest-value-in-bst-competitive-programming-with-time-and-space-complexity-7d785a8b48b2))
 
 Write a function that takes in a Binary Search Tree (BST) and a target integer value and returns the closest value to that target value contained in the BST. You can assume that there will only be one closest value.
 
@@ -120,6 +123,8 @@ Each BST node has an integer value, a left child node, and a right child node. A
 
 tree:
 
+```
+
           10
        /     \
       5      15
@@ -127,6 +132,7 @@ tree:
    2     5 13   22
  /           \
 1             14
+```
 
 target = 12
 
