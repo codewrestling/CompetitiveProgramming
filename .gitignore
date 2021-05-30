@@ -12,3 +12,7 @@
 /TournamentWinner/obj
 /Non-Constructible Change/obj
 /Non-Constructible Change/bin/Debug/netcoreapp3.1
+/ClosestValueInBST/bin/Debug/netcoreapp3.1
+/ClosestValueInBST/obj/Debug/netcoreapp3.1
+/ClosestValueInBST/obj
+/.vs/CompetitiveProgramming/DesignTimeBuild
